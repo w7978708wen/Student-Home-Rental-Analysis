@@ -4,8 +4,8 @@ To simulate the analysis that I created for my university's student home rental 
 I aim to use my data sets to display my exploratory data analysis, dashboard creation, design principles, and data story-telling techniques.
 
 
-<h1>Data Analysis Using Python</h1>
-Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_analysis.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data-cleaning, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
+<h1>Data Transformation Using Python</h1>
+Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_analysis.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
 
 <h3>Handling missing values</h3>
 
