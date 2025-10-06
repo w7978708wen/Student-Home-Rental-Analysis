@@ -1,7 +1,8 @@
 <h1>Overview</h1>
-To simulate the analysis that I created for my university's student home rental business (which is an academic project), I manually created two small data sets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
+To simulate the analysis that I created for my university's student home rental business (which is an academic project), I manually created two small datasets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
 
-I aim to use my data sets to display my interest and work in managing a complete data pipeline, including:
+I aim to use my data sets to display my interest and work in managing a complete data pipeline/ ETL process, including:
+
 • Importing raw data into Python
 
 • Transforming the datasets in Python
