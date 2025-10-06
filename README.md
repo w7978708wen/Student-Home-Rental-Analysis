@@ -5,7 +5,7 @@ I aim to use my data sets to display my exploratory data analysis, dashboard cre
 
 
 <h1>Data Analysis Using Python</h1>
-Please go to the my Jupyter notebook attached in this repository for exact steps done. 
+Please go to the my [Jupyter notebook](https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_analysis.ipynb) attached in this repository for exact steps done. After data-cleaning, the .csv files will be used in Power BI to create the dashboard with data visualizations.
 
 Here are some of my takeaways:
 
