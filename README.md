@@ -1,7 +1,18 @@
 <h1>Overview</h1>
 To simulate the analysis that I created for my university's student home rental business (which is an academic project), I manually created two small data sets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
 
-I aim to use my data sets to display my ETL, exploratory data analysis, data transformation, data analysis, design principles, and data story-telling techniques.
+I aim to use my data sets to display my interest and work in managing a complete data pipeline, including:
+• Importing raw data into Python
+
+• Transforming the datasets in Python
+
+• Exporting the cleaned dataset as .csv to load into Power BI
+
+• Doing exploratory data analysis in Power BI
+
+• Utilizing design principles to direct the audience's focus
+
+• Utilizing data story-telling techniques to communicate insights clearly
 
 
 <h1>Data Transformation Using Python</h1>
