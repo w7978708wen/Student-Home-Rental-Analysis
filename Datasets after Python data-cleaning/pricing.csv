@@ -1,0 +1,25 @@
+Room Building,Room Type,Monthly Rent,Monthly Utilities,Total Monthly Cost
+APT-1,Single Room,1000,50,1050
+APT-1,1 Bedroom,950,50,1000
+APT-1,2 Bedroom,900,50,950
+APT-1,5 Bedroom,800,50,850
+APT-3,Single Room,2000,100,2100
+APT-3,1 Bedroom,1500,100,1600
+APT-3,2 Bedroom,1000,100,1100
+APT-3,5 Bedroom,900,100,1000
+APT-5,Single Room,1500,120,1620
+APT-5,1 Bedroom,1200,120,1320
+APT-5,2 Bedroom,1050,120,1170
+APT-5,5 Bedroom,1000,120,1120
+College-1,Single Room,1000,50,1050
+College-1,1 Bedroom,950,50,1000
+College-1,2 Bedroom,850,50,900
+College-1,5 Bedroom,800,50,850
+College-3,Single Room,1350,100,1450
+College-3,1 Bedroom,1200,100,1300
+College-3,2 Bedroom,1000,100,1100
+College-3,5 Bedroom,850,100,950
+College-5,Single Room,1300,120,1420
+College-5,1 Bedroom,1200,120,1320
+College-5,2 Bedroom,1050,120,1170
+College-5,5 Bedroom,1000,120,1120
