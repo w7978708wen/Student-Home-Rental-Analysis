@@ -37,6 +37,25 @@ else → Student Type = “Domestic"
 
 •If an Excel spreadsheet does not have columns starting at row 1, remove the unnecessary rows above the data using the skiprows=n argument on the line of code where the dataset is imported.
 
+<h1>Data-Driven Solutions using Power BI</h1>
+
+<h2>Popularity vs. Price </h2>
+
+•The analysis shows that there is a disporportionately high demand for Single Room at Amazing Apartment compared with other options. This trend is clearly reflected in the "Most Preferred Options in 1st Preference" bar chart. 
+
+•On the other hand, the Single Room at Amazing Apartment also has one of the lower total monthly costs. In fact, getting a Single Room at Amazing Apartment costs less than any other apartments (Brilliant Apartment and Fantastic Apartment). 
+
+•Recommendation: 
+
+Putting the data visualizations side-by-side allows us to recognize a mismatch between demand and pricing. To achieve a more balanced distribution of applicants across buildings and room types, it is recommended to reassess the current pricing structure.I would recommend increasing the rent and/or utilities for Single Rooms at Amazing Apartment so the demand for this option would decrease and the demand for other options would increase.
+
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201.png?">
+
+I will be creating more data visualizations later. Thank you for reading.
+
+
+
 
 
 
