@@ -64,6 +64,17 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201.png?raw=true">
 
+<h2>Takeaways:</h2>
+
+• It is okay to go back to doing data transformation while I am already in the data-visualization stage. Initially, I used Python to demonstrate my data-transformation capabilities (which I did not get to do in the actual school project due to criteria constriants). However, I still like to use Power Query Editor to transform data because it is very convenient to shift back and forth between Power Query Editor and Report View - all within Power BI.
+
+•I learned that it is important to understand how the business operates in order to deliver helpful insights. 
+
+Example 1: a single room apartment (studio apartment) is different than a 1-bedroom apartment (a home with a kitchen area, living area, 1 bedroom, and more).
+
+Example 2: Only 1 type of building is children-friendly, which is Fantastic Apartment (APT-5). This is why most applicants who identify as children-accompanied put this building as their first choice, even though this building has the highest rent. Besides exploring the spreadsheets, it is important to know the client by going onto their website, social media, etc.
+
+
 I will be creating more data visualizations later. Thank you for reading.
 
 
