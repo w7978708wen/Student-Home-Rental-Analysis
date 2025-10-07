@@ -70,7 +70,7 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 •I learned that it is important to understand how the business operates in order to deliver helpful insights. 
 
-Example 1: a single room apartment (studio apartment) is different than a 1-bedroom apartment (a home with a kitchen area, living area, 1 bedroom, and more).
+Example 1: A single room apartment (studio apartment) is different than a 1-bedroom apartment (a home with a kitchen area, living area, 1 bedroom, and more).
 
 Example 2: Only 1 type of building is children-friendly, which is Fantastic Apartment (APT-5). This is why most applicants who identify as children-accompanied put this building as their first choice, even though this building has the highest rent. Besides exploring the spreadsheets, it is important to know the client by going onto their website, social media, etc.
 
