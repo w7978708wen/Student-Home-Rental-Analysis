@@ -76,7 +76,7 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 <h2>Applicant Demographics </h2>
 
-•The applicant demographics is useful for knowing the customer base more and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
+•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
 
