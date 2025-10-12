@@ -17,7 +17,7 @@ I aim to use my data sets to display my interest and work in managing a complete
 
 
 <h1>Data Transformation Using Python</h1>
-Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_analysis.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
+Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
 
 <h3>Handling missing values</h3>
 
