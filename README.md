@@ -27,6 +27,8 @@ Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-
 
 •Not every missing value needs to be dropped. For example, an applicant’s missing postal code is insignificant when analyzing how the student home rental business can improve.
 
+•Missing values can contain meaning. For example, no offer reply date indicates that the applicant has not received an offer. However, this row of data should not be dropped, because it can still be used to analyze which buildings and rooms are popular. 
+
 <h3>Dropping columns with little significance</h3>
 
 •Not every column is useful, such as housing preferences 4–6. Therefore, they are dropped from the dataset to reduce clutter. 
