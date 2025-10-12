@@ -66,6 +66,14 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201.png?raw=true">
 
+<h2>Peak Application Months </h2>
+
+•The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
+
+•This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202.png?raw=true">
+
 <h2>Takeaways:</h2>
 
 • It is okay to go back to doing data transformation while I am already in the data visualization stage. Initially, I used Python to demonstrate my data transformation capabilities (which I did not get to do in the actual school project due to criteria constriants). However, I still like to use Power Query Editor to transform data because it is very convenient to shift back and forth between Power Query Editor and Report View - all within Power BI.
