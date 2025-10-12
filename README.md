@@ -83,6 +83,10 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 <h2>Takeaways:</h2>
 
+•One data visualization addresses one single question. For example, what is the total monthly cost for each room type + building option? 
+
+•It is more reliable to create a new DateTable using DAX Expressions, where I would use the year-month column in the DateTable instead of the year-month column in the imported dataset to create data visualizations. In data modelling, I would activate the relationship between the two columns with a many-to-one relationship (many-side belongs to the DateTable's year-month column, and one-side belongs to the imported dataset's year-month column). 
+
 • It is okay to go back to doing data transformation while I am already in the data visualization stage. Initially, I used Python to demonstrate my data transformation capabilities (which I did not get to do in the actual school project due to criteria constriants). However, I still like to use Power Query Editor to transform data because it is very convenient to shift back and forth between Power Query Editor and Report View - all within Power BI.
 
 •I learned that it is important to understand how the business operates in order to deliver helpful insights. 
