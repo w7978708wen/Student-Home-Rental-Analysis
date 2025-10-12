@@ -51,7 +51,7 @@ else → Student Type = “Domestic"
 
 •If an Excel spreadsheet does not have columns starting at row 1, remove the unnecessary rows above the data using the skiprows=n argument on the line of code where the dataset is imported.
 
-<h1>Data-Driven Solutions using Power BI</h1>
+<h1>Sample Data-Driven Solutions using Power BI</h1>
 
 <h2>Popularity vs. Price </h2>
 
@@ -64,7 +64,7 @@ else → Student Type = “Domestic"
 Putting the data visualizations side-by-side allows us to recognize a mismatch between demand and pricing. To achieve a more balanced distribution of applicants across buildings and room types, it is recommended to reassess the current pricing structure.I would recommend increasing the rent and/or utilities for Single Rooms at Amazing Apartment so the demand for this option would decrease and the demand for other options would increase.
 
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201.png?raw=true">
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201(1).png?raw=true">
 
 <h2>Peak Application Months </h2>
 
@@ -72,7 +72,14 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 •This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202.png?raw=true">
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202(1).png?raw=true">
+
+<h2>Applicant Demographics </h2>
+
+•The applicant demographics is useful for knowing the customer base more and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
+
 
 <h2>Takeaways:</h2>
 
@@ -85,7 +92,6 @@ Example 1: A single room apartment (studio apartment) is different than a 1-bedr
 Example 2: Only 1 type of building is children-friendly, which is Fantastic Apartment (APT-5). This is why most applicants who identify as children-accompanied put this building as their first choice, even though this building has the highest rent. Besides exploring the spreadsheets, it is important to know the client by going onto their website, social media, etc.
 
 
-I will be creating more data visualizations later. Thank you for reading.
 
 
 
