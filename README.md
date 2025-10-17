@@ -16,7 +16,7 @@ I aim to use my data sets to display my interest and work in managing a complete
 • Utilizing data story-telling techniques to communicate insights clearly
 
 
-Bonus: I also performed ad-hoc analysis in Microsoft SQL Server to generate a capacity tracker, identify the top 10 most expensive room options that costs $1xxx , and summarize return applicants’ first preferences.
+Bonus: I also performed <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> ad-hoc analysis using Microsoft SQL Server </a> to generate a capacity tracker, identify the top 10 most expensive room options that costs $1xxx , and summarize return applicants’ first preferences.
 
 <h1>Data Transformation Using Python:</h1>
 Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
