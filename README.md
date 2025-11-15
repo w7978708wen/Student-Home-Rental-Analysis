@@ -108,7 +108,7 @@ GO
 
 Query 1. Capacity Tracker:
 
-Note: The Capacity Tracker monitors capacity by counting applicants who accepted their offers for each location
+Note: The Capacity Tracker monitors capacity by counting applicants who accepted their offers for each location.
 
 ```sql
 SELECT c.full_building_name 'Location Offered',
