@@ -7,16 +7,17 @@ I aim to use my data sets to display my interest and work in managing a complete
 
 • Transforming the datasets in Python
 
-• Exporting the cleaned dataset as .csv to load into Power BI
+• Exporting the cleaned dataset a CSV file to load into Power BI
 
-• Doing exploratory data analysis in Power BI
+• Doing exploratory data analysis and data visualizations in Power BI
 
 • Utilizing design principles to direct the audience's focus
 
 • Utilizing data story-telling techniques to communicate insights clearly
 
+Bonus: I also performed ad-hoc analysis using Microsoft SQL Server to generate a capacity tracker, identify the top 10 most expensive room options that costs $1xxx , and summarize return applicants’ first preferences. Please scroll down to near the end of this README.md for details.  <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> Here </a> is the link to the SQL file.
 
-Bonus: I also performed <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> ad-hoc analysis using Microsoft SQL Server </a> to generate a capacity tracker, identify the top 10 most expensive room options that costs $1xxx , and summarize return applicants’ first preferences.
+Bonus: In a <a href= "https://github.com/w7978708wen/Microsoft-Azure-and-Databricks"> seperate repository</a>, I built an alternative ETL pipeline with the same data sets (applicant, capacity, pricing) using Microsoft Azure (Data Factory, Databricks).
 
 <h1>Data Transformation Using Python:</h1>
 Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
@@ -96,6 +97,72 @@ Example 1: A single room apartment (studio apartment) is different than a 1-bedr
 Example 2: Only 1 type of building is children-friendly, which is Fantastic Apartment (APT-5). This is why most applicants who identify as children-accompanied put this building as their first choice, even though this building has the highest rent. Besides exploring the spreadsheets, it is important to know the client by going onto their website, social media, etc.
 
 •It is more reliable to create a new DateTable using DAX Expressions, where I would use the year-month column in the DateTable instead of the year-month column in the imported dataset to create data visualizations. In data modelling, I would activate the relationship between the two columns with a many-to-one relationship (many-side belongs to the DateTable's year-month column, and one-side belongs to the imported dataset's year-month column). 
+
+<h1>Data Analysis using Microsoft SQL Server:</h1>
+
+I initially loaded the file into the "Databases folder". Everytime I open the SQL file, I would need to run the following two lines of code as set-up:
+```sql
+USE HomeRentalAnalysis;
+GO
+```
+
+Query 1. Capacity Tracker:
+
+Note: The Capacity Tracker monitors capacity by counting applicants who accepted their offers for each location
+
+```sql
+SELECT c.full_building_name 'Location Offered',
+	   count(a.location_offered) 'Capacity Used Up', 
+	   (c.capacity - count(a.location_offered)) 'Capacity Left',
+	   c.capacity 'Capacity'
+FROM dbo.capacity c
+LEFT JOIN dbo.applicant a 
+	ON a.Location_offered = c.full_building_name
+	AND a.application_status = 'Offer Accepted'
+GROUP BY c.full_building_name, c.capacity;
+```
+
+Output:
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%201.png?raw=true">/<img>
+
+Query 2. Display the top 10 most expensive building + room type options in the $1000 - $2000 category:
+
+Note: I joined the capacity table with the pricing table, because the room building in pricing table is encoded and the full room building name column is available in the pricing table. 
+I encountered this scenario in my actual project before.
+
+```sql
+SELECT TOP 10 c.full_building_name 'Room Building', 
+	   p.room_type 'Room Type', 
+	   p.total_monthly_cost 'Total Monthly Cost'
+FROM dbo.pricing p
+JOIN dbo.capacity c
+ON p.room_building = c.coded_name
+WHERE p.total_monthly_cost LIKE '1%'
+ORDER BY p.total_monthly_cost DESC;
+```
+
+Output:
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%202.png?raw=true">/<img>
+
+
+Query 3. What are returner applicants' 1st room preferences:
+
+Note: We can infer which residence buildings have strong user-retention, although we do not have data on where returning applicants previously lived.
+
+```sql
+SELECT _1st_Room_Preference "1st Room Preference", 
+		count(_1st_Room_Preference) "Count"
+FROM dbo.applicant 
+WHERE Classification_Description = 'Returner'
+GROUP BY _1st_Room_Preference;
+```
+
+Output:
+
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%203.png?raw=true">/<img>
+
 
 
 
