@@ -106,7 +106,7 @@ USE HomeRentalAnalysis;
 GO
 ```
 
-Query 1. Capacity Tracker:
+<h3>Query 1. Capacity Tracker:</h3>
 
 Note: The Capacity Tracker monitors capacity by counting applicants who accepted their offers for each location.
 
@@ -124,9 +124,9 @@ GROUP BY c.full_building_name, c.capacity;
 
 Output:
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%201.png?raw=true">/<img>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%201.png?raw=true"></img>
 
-Query 2. Display the top 10 most expensive building + room type options in the $1000 - $2000 category:
+<h3>Query 2. Display the top 10 most expensive building + room type options in the $1000 - $2000 category:</h3>
 
 Note: I joined the capacity table with the pricing table, because the room building in pricing table is encoded and the full room building name column is available in the pricing table. 
 I encountered this scenario in my actual project before.
@@ -144,10 +144,10 @@ ORDER BY p.total_monthly_cost DESC;
 
 Output:
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%202.png?raw=true">/<img>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%202.png?raw=true"></img>
 
 
-Query 3. What are returner applicants' 1st room preferences:
+<h3> Query 3. What are returner applicants' 1st room preferences:</h3>
 
 Note: We can infer which residence buildings have strong user-retention, although we do not have data on where returning applicants previously lived.
 
@@ -161,7 +161,7 @@ GROUP BY _1st_Room_Preference;
 
 Output:
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%203.png?raw=true">/<img>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%203.png?raw=true"></img>
 
 
 
