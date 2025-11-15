@@ -63,7 +63,7 @@ ORDER BY p.total_monthly_cost DESC;
 /* Query 3. What are returner applicants' 1st room preferences: */
 
 /* Note: Can infer which residence buildings have strong user-retention, 
-althogh do not have the information of where the returner applicants lived previously */
+althogh do not have the information of where the returner applicants lived previously. */
 SELECT _1st_Room_Preference "1st Room Preference", 
 		count(_1st_Room_Preference) "Count"
 FROM dbo.applicant 
