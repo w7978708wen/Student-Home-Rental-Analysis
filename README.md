@@ -1,23 +1,35 @@
 <h1>Overview:</h1>
 To simulate the analysis that I created for my university's student home rental business (which is an academic project), I manually created two small datasets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
 
-I aim to use my data sets to display my interest and work in managing a complete data pipeline/ ETL process, including:
+<h5></h5>
+I aim to use my datasets to demonstrate my interest and experience in managing a complete ETL pipeline. Other key objectives include applying design principles to guide the audience’s focus and using data storytelling techniques to communicate insights clearly. This led me to design two versions of the project using different tools — the Power BI version is more visually oriented, while the alternative version serves as practice working with a cloud platform.
 
-• Importing raw data into Python
+<h4>Version 1. Using Excel + Python + Power BI:</h4>
 
-• Transforming the datasets in Python
+Excel for dataset creation.
 
-• Exporting the cleaned dataset a CSV file to load into Power BI
+Python for data transformation (and some data analysis).
 
-• Doing exploratory data analysis and data visualizations in Power BI
+Power BI for loading, modelling, and visualizing the data.
 
-• Utilizing design principles to direct the audience's focus
+Bonus: Microsoft SQL Server can be used as an alternative environment for data analysis / ad-hoc analysis.
+•Immediate operational insights include a capacity tracker, identified the top 10 most expensive room options that costs $1xxx , and a summary of return applicants’ first preferences. Please scroll down to near the end of this README.md for details.  <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> Here </a> is the link to the SQL file.
 
-• Utilizing data story-telling techniques to communicate insights clearly
+This version is covered in this repository.
 
-Bonus: I also performed ad-hoc analysis using Microsoft SQL Server to generate a capacity tracker, identify the top 10 most expensive room options that costs $1xxx , and summarize return applicants’ first preferences. Please scroll down to near the end of this README.md for details.  <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> Here </a> is the link to the SQL file.
+<h4>Version 2. Using Microsoft Azure:</h4>
 
-Bonus: In a <a href= "https://github.com/w7978708wen/Microsoft-Azure-and-Databricks"> seperate repository</a>, I built an alternative ETL pipeline with the same data sets (applicant, capacity, pricing) using Microsoft Azure (Data Factory, Databricks).
+Azure Data Lake Storage (ADLS) for data ingestion and storage.
+
+Data Factory for data pipeline management.
+
+Databricks/PySpark for data transformation and loading into folder for transformed data.
+
+See repository <a href="https://github.com/w7978708wen/Microsoft-Azure-and-Databricks/tree/main">here</a>.
+
+
+
+
 
 <h1>Data Transformation Using Python:</h1>
 Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
