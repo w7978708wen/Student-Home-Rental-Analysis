@@ -3,7 +3,7 @@ To simulate the analysis that I created for my university's student home rental 
 
 <h5></h5>
 I aim to use my datasets to demonstrate my interest and experience in managing a complete ETL pipeline. Other key objectives include applying design principles to guide the audience’s focus and using data storytelling techniques to communicate insights clearly. This led me to design two versions of the project using different tools — the Power BI version is more visually oriented, while the alternative version serves as practice working with a cloud platform.
-
+<br><br>
 <h4>Version 1. Using Excel + Python + Power BI:</h4>
 
 Excel for dataset creation.
@@ -13,10 +13,11 @@ Python for data transformation (and some data analysis).
 Power BI for loading, modelling, and visualizing the data.
 
 Bonus: Microsoft SQL Server can be used as an alternative environment for data analysis / ad-hoc analysis.
+
 •Immediate operational insights include a capacity tracker, identified the top 10 most expensive room options that costs $1xxx , and a summary of return applicants’ first preferences. Please scroll down to near the end of this README.md for details.  <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> Here </a> is the link to the SQL file.
 
 This version is covered in this repository.
-
+<br><br>
 <h4>Version 2. Using Microsoft Azure:</h4>
 
 Azure Data Lake Storage (ADLS) for data ingestion and storage.
@@ -26,14 +27,10 @@ Data Factory for data pipeline management.
 Databricks/PySpark for data transformation and loading into folder for transformed data.
 
 See repository <a href="https://github.com/w7978708wen/Microsoft-Azure-and-Databricks/tree/main">here</a>.
-
-
-
-
-
+<br><br>
 <h1>Data Transformation Using Python:</h1>
 Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
-
+<br><br>
 <h3>Handling missing values:</h3>
 
 •Missing Aboriginal status responses are filled in with “No,” since it is the most frequently occurring response among other applicants.
@@ -43,15 +40,15 @@ Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-
 •Not every missing value needs to be dropped. For example, an applicant’s missing postal code is insignificant when analyzing how the student home rental business can improve.
 
 •Missing values can contain meaning. For example, no offer reply date indicates that the applicant has not received an offer. However, this row of data should not be dropped, because it can still be used to analyze which buildings and rooms are popular. 
-
+<br><br>
 <h3>Dropping columns with little significance:</h3>
 
 •Not every column is useful, such as housing preferences 4–6. Therefore, they are dropped from the dataset to reduce clutter. 
-
+<br><br>
 <h3>Replacing values:</h3>
 
 •For example, “2-Bedroom” vs “Two Bedroom.” Also, the building names are given using code names, which need to be converted back to their real names to make the final dashboard presentation as easy to understand as possible.
-
+<br><br>
 <h3>Creating new columns using logic or aggregation:</h3>
 
 •In my simple dataset, given that the state/province is a non-empty value and that our new column is called 'Student Type':
@@ -61,11 +58,11 @@ If State/Province = "International" → Student Type = “International”
 else → Student Type = “Domestic"
 
 •Another column can also be created to aggregate values from other columns. For example Total monthly cost = monthly rent + monthly utilities
-
+<br><br>
 <h3>Properly formatting the spreadsheet:</h3>
 
 •If an Excel spreadsheet does not have columns starting at row 1, remove the unnecessary rows above the data using the skiprows=n argument on the line of code where the dataset is imported.
-
+<br><br>
 <h1>Sample Data-Driven Solutions using Power BI:</h1>
 
 <h2>Popularity vs. Price:</h2>
@@ -80,7 +77,7 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201(1).png?raw=true">
-
+<br><br>
 <h2>Peak Application Months:</h2>
 
 •The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
@@ -88,13 +85,13 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 •This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202(1).png?raw=true">
-
+<br><br>
 <h2>Applicant Demographics:</h2>
 
 •The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
-
+<br><br>
 
 <h2>Takeaways:</h2>
 
@@ -109,7 +106,7 @@ Example 1: A single room apartment (studio apartment) is different than a 1-bedr
 Example 2: Only 1 type of building is children-friendly, which is Fantastic Apartment (APT-5). This is why most applicants who identify as children-accompanied put this building as their first choice, even though this building has the highest rent. Besides exploring the spreadsheets, it is important to know the client by going onto their website, social media, etc.
 
 •It is more reliable to create a new DateTable using DAX Expressions, where I would use the year-month column in the DateTable instead of the year-month column in the imported dataset to create data visualizations. In data modelling, I would activate the relationship between the two columns with a many-to-one relationship (many-side belongs to the DateTable's year-month column, and one-side belongs to the imported dataset's year-month column). 
-
+<br><br>
 <h1>Data Analysis using Microsoft SQL Server:</h1>
 
 I initially loaded the file into the "Databases folder". Everytime I open the SQL file, I would need to run the following two lines of code as set-up:
@@ -117,7 +114,7 @@ I initially loaded the file into the "Databases folder". Everytime I open the SQ
 USE HomeRentalAnalysis;
 GO
 ```
-
+<br><br>
 <h3>Query 1. Capacity Tracker:</h3>
 
 Note: The Capacity Tracker monitors capacity by counting applicants who accepted their offers for each location.
@@ -137,7 +134,7 @@ GROUP BY c.full_building_name, c.capacity;
 Output:
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%201.png?raw=true"></img>
-
+<br><br>
 <h3>Query 2. Display the top 10 most expensive building + room type options in the $1000 - $2000 category:</h3>
 
 Note: I joined the capacity table with the pricing table, because the room building in pricing table is encoded and the full room building name column is available in the pricing table. 
@@ -158,7 +155,7 @@ Output:
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Screenshots/SQL%20Output%202.png?raw=true"></img>
 
-
+<br><br>
 <h3> Query 3. What are returner applicants' 1st room preferences:</h3>
 
 Note: We can infer which residence buildings have strong user-retention, although we do not have data on where returning applicants previously lived.
