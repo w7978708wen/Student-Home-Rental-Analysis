@@ -24,7 +24,9 @@ Azure Data Lake Storage (ADLS) for data ingestion and storage.
 
 Data Factory for data pipeline management.
 
-Databricks/PySpark for data transformation and loading into folder for transformed data.
+Databricks for data transformation and loading into folder for transformed data (using PySpark).
+
+Bonus: Synapse Analytics for data analysis (using SQL)
 
 See repository <a href="https://github.com/w7978708wen/Microsoft-Azure-and-Databricks/tree/main">here</a>.
 <br><br>
