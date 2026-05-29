@@ -29,6 +29,16 @@ Databricks for data transformation and loading into folder for transformed data 
 Bonus: Synapse Analytics for data analysis (using SQL)
 
 See repository <a href="https://github.com/w7978708wen/Microsoft-Azure-and-Databricks/tree/main">here</a>.
+
+<br><br>
+<h1>Examining applicant and student-home-rental business datasets:</h1>
+
+I created simulated datasets (applicants, pricing, and capacity) using the same column names and similar data-entry inconsistencies as those found in the original project datasets: 
+
+During the initial data inspection stage, several data quality issues were identified. For example, the "State Province" column in the applicant dataset contained a mixture of Australian states and international provinces without a consistent structure or grouping, making the data difficult to analyze.
+
+This highlighted an important lesson in data analytics: not every available variable needs to be included in subsequent analyses. Rather than relying on the "State Province" column, the "Citizenship Country" column was selected when relevant, as the primary objective of the dashboard was not to analyze applicant demographics. Instead, the focus was on identifying operational bottlenecks within the student on-campus housing application process and generating recommendations to improve system workflows and efficiency.
+
 <br><br>
 <h1>Data Transformation Using Python:</h1>
 Please go to the my <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/Python_data_transformation.ipynb">Jupyter notebook</a> attached in this repository for exact steps done. After data transformation, the .csv files will be used in Power BI to create the dashboard with data visualizations. Here are some of my takeaways:
