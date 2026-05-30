@@ -86,12 +86,12 @@ else → Student Type = “Domestic"
 When I created the dashboard, my focus is on the assigned business task: Given the applicant and business operational datasets, identify any existing bottlenecks. Therefore, I wanted to focus on the business's operational and performance statistics per year: number of applicants, average processing time, and the proportion of applicants who accepted their offers. I did not want to overwhelm the audience with too much information on one page, I intentionally limited the page to five visuals consisting of KPI cards, slicers, and an offer outcome chart. This approach reduces visual clutter and allows users to focus on the most important performance metrics before exploring more detailed analysis in subsequent dashboard pages. The year and location filters were also included to enable stakeholders to quickly identify trends and compare performance across different segments.
 <br><br>
 
-<h2>Applicant Demographics:</h2>
+<h2>Applicant Distribution and Preferences:</h2>
 
 <br><br>
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_applicant%20distribution%20and%20preferences.png">
 <br><br>
-•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
+•The applicant insights are useful, because it would better allow the business to understand their customer base better and for developing marketing strategies. The year slicer is implemented to look at the trends at a particular year. 
 <br><br>
 
 <h2>Popularity vs. Price:</h2>
