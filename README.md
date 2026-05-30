@@ -86,6 +86,14 @@ else → Student Type = “Domestic"
 When I created the dashboard, my focus is on the assigned business task: Given the applicant and business operational datasets, identify any existing bottlenecks. Therefore, I wanted to focus on the business's operational and performance statistics per year: number of applicants, average processing time, and the proportion of applicants who accepted their offers. I did not want to overwhelm the audience with too much information on one page, I intentionally limited the page to five visuals consisting of KPI cards, slicers, and an offer outcome chart. This approach reduces visual clutter and allows users to focus on the most important performance metrics before exploring more detailed analysis in subsequent dashboard pages. The year and location filters were also included to enable stakeholders to quickly identify trends and compare performance across different segments.
 <br><br>
 
+<h2>Applicant Demographics:</h2>
+
+<br><br>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
+<br><br>
+•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
+<br><br>
+
 <h2>Popularity vs. Price:</h2>
 
 <br><br>
@@ -104,21 +112,14 @@ Putting the data visualizations side-by-side allows us to recognize a mismatch b
 <h2>Peak Application Months:</h2>
 
 <br><br>
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202(1).png?raw=true">
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_application.png">
+
+•Recommendation: 
+
+The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
+
+This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
 <br><br>
-•The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
-
-•This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
-
-
-<h2>Applicant Demographics:</h2>
-
-<br><br>
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
-<br><br>
-•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
-<br><br>
-
 
 <h2>Takeaways:</h2>
 
