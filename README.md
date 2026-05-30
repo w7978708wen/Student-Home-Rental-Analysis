@@ -16,7 +16,7 @@ Bonus: Microsoft SQL Server can be used as an alternative environment for data a
 
 •Immediate operational insights include a capacity tracker, identified the top 10 most expensive room options that costs $1xxx , and a summary of return applicants’ first preferences. Please scroll down to near the end of this README.md for details.  <a href="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/HomeRentalAnalysis.sql"> Here </a> is the link to the SQL file.
 
-This version is covered in this repository.
+***This version is covered in this repository.***
 <br><br>
 <h4>Version 2. Using Microsoft Azure:</h4>
 
@@ -77,33 +77,48 @@ else → Student Type = “Domestic"
 <br><br>
 <h1>Sample Data-Driven Solutions using Power BI:</h1>
 
+<h2>Executive Summary:</h2>
+
+<br><br>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_executive%20summary.png">
+<br><br>
+
+When I created the dashboard, my focus is on the assigned business task: Given the applicant and business operational datasets, identify any existing bottlenecks. Therefore, I wanted to focus on the business's operational and performance statistics per year: number of applicants, average processing time, and the proportion of applicants who accepted their offers. I did not want to overwhelm the audience with too much information on one page, I intentionally limited the page to five visuals consisting of KPI cards, slicers, and an offer outcome chart. This approach reduces visual clutter and allows users to focus on the most important performance metrics before exploring more detailed analysis in subsequent dashboard pages. The year and location filters were also included to enable stakeholders to quickly identify trends and compare performance across different segments.
+<br><br>
+
 <h2>Popularity vs. Price:</h2>
 
-•The analysis shows that there is a disporportionately high demand for Single Room at Amazing Apartment compared with other options. This trend is clearly reflected in the "Most Preferred Options in 1st Preference" bar chart. 
+<br><br>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_popularity%20vs%20pricing.png">
+<br><br>
+•The analysis shows that there is a dispoportionately high demand for Single Room at Amazing Apartment compared with other options. This trend is clearly reflected in the "Most Preferred Options in 1st Preference" bar chart. 
 
 •On the other hand, the Single Room at Amazing Apartment also has one of the lower total monthly costs. In fact, getting a Single Room at Amazing Apartment costs less than any other apartments (Brilliant Apartment and Fantastic Apartment). 
 
 •Recommendation: 
 
 Putting the data visualizations side-by-side allows us to recognize a mismatch between demand and pricing. To achieve a more balanced distribution of applicants across buildings and room types, it is recommended to reassess the current pricing structure.I would recommend increasing the rent and/or utilities for Single Rooms at Amazing Apartment so the demand for this option would decrease and the demand for other options would increase.
-
-
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Popularity%20vs.%20Price%20Data%20Visualization%201(1).png?raw=true">
 <br><br>
+
+
 <h2>Peak Application Months:</h2>
 
+<br><br>
+<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202(1).png?raw=true">
+<br><br>
 •The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
 
 •This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
 
-<img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Peak%20Application%20Timeline%20Data%20Visualization%202(1).png?raw=true">
-<br><br>
+
 <h2>Applicant Demographics:</h2>
 
-•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
-
+<br><br>
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Applicant%20Demographics%20Dashboard(1).png?raw=true">
 <br><br>
+•The applicant demographics is useful for knowing the customer base better and for developing marketing strategies. The slicer is implemented to look at the trends for a particular time interval, such as year-month. 
+<br><br>
+
 
 <h2>Takeaways:</h2>
 
