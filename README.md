@@ -109,19 +109,17 @@ A year slicer is included to allow quick comparisons across application cycles.
 •Dashboard decision choices: 
 
 1. Assigned the most space to the preference bar graph because identifying housing demand is relatively more important than understanding demographic breakdowns.
+
+2. I selected a stacked bar chart because the objective was not only to identify the most popular accommodation options, but also to understand which academic programs contributed to that demand. This allows stakeholders to observe both overall popularity and the composition of applicants within a single graph.
+
+3. To improve readability, I intentionally focused the visualization on the most popular first-preference options rather than displaying every accommodation choice. The trade-off is that some less popular options are not shown; however, this allows stakeholders to immediately identify the housing options driving the majority of demand without being distracted by less popular options. This provides a clearer view of applicant preferences and helps stakeholders better understand which on-campus housing options are most attractive to different student groups.
+   
 <br>
 
 
 <h2>Peak Application Months:</h2>
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_application.png">
-
-•Recommendation: 
-
-The analysis shows that the months with the most applications and highest turnaround days occur in October and November of every year. 
-
-This implies that the student home rental office is understaffed during those months, and so they can plan ahead by hiring more casual employees to accomodate for the following year's expected busy months (October and November). Not only would student applicants be more satisfied with a shorter wait-time, employees would also be satisfied with receiving more assistance to handle the workload during busy months. 
-<br><br>
 
 •Dashboard decision choices: 
 
