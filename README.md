@@ -80,7 +80,7 @@ else → Student Type = “Domestic"
 <h2>Executive Summary:</h2>
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_executive%20summary.png">
-<br><br>
+
 
 When I created the dashboard, my focus is on the assigned business task: Given the applicant and business operational datasets, identify any existing bottlenecks. Therefore, I wanted to focus on the business's operational and performance statistics per year: number of applicants, average processing time, and the proportion of applicants who accepted their offers. I did not want to overwhelm the audience with too much information on one page, I intentionally limited the page to five visuals consisting of KPI cards, slicers, and an offer outcome chart. This approach reduces visual clutter and allows users to focus on the most important performance metrics before exploring more detailed analysis in subsequent dashboard pages. The year and location filters were also included to enable stakeholders to quickly identify trends and compare performance across different segments.
 <br><br>
@@ -93,16 +93,14 @@ When I created the dashboard, my focus is on the assigned business task: Given t
 
 3. Selected to use a donut chart because the dashboard focuses on the proportion of offer outcomes rather than exact counts.
 
-4. Positioned the year and location filters on the left side to maintain a consistent navigation experience across all dashboard pages.
-
-A year slicer is included to allow quick comparisons across application cycles.
+4. Positioned the year and location filters on the left side to maintain a consistent navigation experience across all dashboard pages. A year slicer is included to allow quick comparisons across application cycles.
    
 <br><br>
 
 <h2>Applicant Distribution and Preferences:</h2>
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_applicant%20distribution%20and%20preferences.png">
-<br><br>
+
 •The applicant insights are useful, because it would better allow the business to understand their customer base better and for developing marketing strategies. The year slicer is implemented to look at the trends at a particular year. 
 <br><br>
 
@@ -133,19 +131,18 @@ A year slicer is included to allow quick comparisons across application cycles.
 <h2>Popularity vs. Price:</h2>
 
 <img src="https://github.com/w7978708wen/Student-Home-Rental-Analysis/blob/main/PowerBI%20Data%20Visualizations/Housing%20dashboard_popularity%20vs%20pricing.png">
-<br><br>
+
 •The analysis shows that there is a dispoportionately high demand for Single Room at Amazing Apartment compared with other options. This trend is clearly reflected in the "Most Preferred Options in 1st Preference" bar chart. 
 
 •On the other hand, the Single Room at Amazing Apartment also has one of the lower total monthly costs. In fact, getting a Single Room at Amazing Apartment costs less than any other apartments (Brilliant Apartment and Fantastic Apartment). 
-
-•Data Recommendation: 
-
-Putting the data visualizations side-by-side allows us to recognize a mismatch between demand and pricing. To achieve a more balanced distribution of applicants across buildings and room types, it is recommended to reassess the current pricing structure.I would recommend increasing the rent and/or utilities for Single Rooms at Amazing Apartment so the demand for this option would decrease and the demand for other options would increase.
 <br><br>
 
 •Dashboard decision choices: 
 
 1. Popularity and pricing metrics are displayed side-by-side to enable direct comparison.
+
+2. I intentionally highlighted the #1 most preferred option (Single Room - Amazing Apartment) using a darker color in both graphs. This design choice directs the audience's attention toward the accommodation option with the highest demand while reducing distractions from lower-ranked options. Using the same highlight across both visuals also allows stakeholders to quickly observe that the most popular option has a relatively lower monthly cost, which may indicate a potential imbalance between demand and pricing.
+
 <br><br>
 
 <h2>Takeaways:</h2>
