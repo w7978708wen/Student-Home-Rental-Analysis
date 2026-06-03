@@ -1,5 +1,5 @@
 <h1>Overview:</h1>
-To simulate the analysis that I created for my university's student home rental business (which is an academic project), I manually created two small datasets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
+To simulate the analysis that I created for my university's student on-campus housing business (which is an academic project), I manually created two small datasets to capture the general trends observed. For example, there are particular months that have higher application volumes than others. Some buildings and room types are also more popoular than others.
 
 <h5></h5>
 I aim to use my datasets to demonstrate my interest and experience in managing a complete ETL pipeline. Other key objectives include applying design principles to guide the audience’s focus and using data storytelling techniques to communicate insights clearly. This led me to design two versions of the project using different tools — the Power BI version is more visually oriented, while the alternative version serves as practice working with a cloud platform.
